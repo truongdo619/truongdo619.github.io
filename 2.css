@@ -137,7 +137,11 @@ hr
   padding:10px 20px;
 }
 
-.about .col-md-4 .btn:hover
+.about .col-md-4 .btn a{
+  text-decoration: none;
+}
+
+.about .col-md-4 .btn:hover 
 {
   background-color:#199cdb;
   color:white;
@@ -370,4 +374,22 @@ span.appear1
 {
   margin-top :50px;
   margin-bottom:20px;
+}
+
+
+.menu .affix
+{
+  z-index:100;
+  top:0px;
+  margin:0 auto;
+  width:100%;
+}
+
+.affix::after
+{
+  content:"";
+}
+
+.out{
+  display:none;
 }
