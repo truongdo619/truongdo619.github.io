@@ -338,3 +338,35 @@ span.appear1
 .exp .btn{
   padding:5px;
 }
+.container-fluid
+{
+  padding:0px;
+}
+
+.contact
+{
+  background-color:#dadada;
+
+}
+
+.h3
+{
+  margin-left:170px;
+  margin-bottom:30px;
+}
+
+.icon-last
+{
+  float:left;
+  padding: 0 20px;
+}
+
+.icon-last i{
+  font-size: 70px;
+  color: #199cdb;
+}
+
+.contact .col-md-4
+{
+  margin-top :50px;
+}
