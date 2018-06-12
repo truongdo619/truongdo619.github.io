@@ -13,31 +13,31 @@
 
  	$("#about").click(function()
  	{
- 		$('html').animate({scrollTop:$('.about').offset().top},1000,'easeInOutExpo');
+ 		$('html').animate({scrollTop:$('.about').offset().top},1000);
  		return false;
  	})
 
  	$("#resume").click(function()
  	{
- 		$('html').animate({scrollTop:$('.resume').offset().top},1000,'easeInOutExpo');
+ 		$('html').animate({scrollTop:$('.resume').offset().top},1000);
  		return false;
  	})
 
  	$("#portfolio").click(function()
  	{
- 		$('html').animate({scrollTop:$('.portfolio').offset().top},1000,'easeInOutExpo');
+ 		$('html').animate({scrollTop:$('.portfolio').offset().top},1000);
  		return false;
  	})
 
  	$("#contact").click(function()
  	{
- 		$('html').animate({scrollTop:$('.contact').offset().top},1000,'easeInOutExpo');
+ 		$('html').animate({scrollTop:$('.contact').offset().top},1000);
  		return false;
  	})
 
  	$("#comment").click(function()
  	{
- 		$('html').animate({scrollTop:$('.comment').offset().top},1000,'easeInOutExpo');
+ 		$('html').animate({scrollTop:$('.comment').offset().top},1000);
  		return false;
  	})
 
