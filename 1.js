@@ -7,7 +7,7 @@
 
  	$("#home").click(function()
  	{
- 		$('html').animate({scrollTop:0},1000,'easeInOutExpo');
+ 		$('html').animate({scrollTop:0},1000);
  		return false;
  	})
 
@@ -25,7 +25,7 @@
 
  	$("#portfolio").click(function()
  	{
- 		$('html').animate({scrollTop:$('.portfolio').offset().top},1000);
+ 		$('html').animate({scrollTop:0},1000);
  		return false;
  	})
 
