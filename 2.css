@@ -104,6 +104,15 @@ font-family: }
   height:100%;
   border:none;
 }
+  .h2
+  {
+    margin-left: 20px;
+  }
+  .contact .col-md-4
+  {
+    text-align:center;
+  }
+
   
 }
 
@@ -392,4 +401,13 @@ span.appear1
 
 .out{
   display:none;
+}
+
+.icon-last
+{
+  height:80px;
+}
+
+.mot{
+  margin-left: 10px;
 }
